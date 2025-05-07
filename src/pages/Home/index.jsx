@@ -22,6 +22,10 @@ function Home() {
       email: inputEmail.current.value,
     });
 
+    inputName.current.value = "";
+    inputAge.current.value = "";
+    inputEmail.current.value = "";
+
     getUsers();
   }
 
